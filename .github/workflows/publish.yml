@@ -18,7 +18,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org' # Menghubungkan ke registri npm resmi
 
       - name: Install Dependencies
-        run: npm ci
+        run: npm install
 
       - name: Publish ke npm Registry
         run: npm publish --access public
